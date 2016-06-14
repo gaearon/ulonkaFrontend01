@@ -1,0 +1,38 @@
+{
+  "name": "ulonkafrontend01",
+  "version": "0.0.0",
+  "description": "frontend app modeled on flux artchitecture using reactjs",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MsUzoAgu/ulonkaFrontend01.git"
+  },
+  "keywords": [
+    "art"
+  ],
+  "author": "MsUzoAgu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MsUzoAgu/ulonkaFrontend01/issues"
+  },
+  "homepage": "https://github.com/MsUzoAgu/ulonkaFrontend01#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "node-sass": "^3.7.0",
+    "sass-loader": "^3.2.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1"
+  }
+}
